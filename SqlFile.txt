@@ -23,8 +23,11 @@ insert into emplyeePayroll(empName ,phoneNumber ,adress ,department ,gen ,basicP
 
  DELETE FROM emplyeePayroll where empID = 1 ;
 
- UPDATE emplyeePayroll SET
+ UPDATE emplyeePayroll
+SET
    empName  = 'mery Come'
-  WHERE
+WHERE
     empID = 3
 ;
+
+SELECT basicPay FROM emplyeePayroll ;
