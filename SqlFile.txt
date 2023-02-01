@@ -31,3 +31,6 @@ WHERE
 ;
 
 SELECT basicPay FROM emplyeePayroll ;
+
+SELECT SUM(basicPay) FROM emplyeePayroll
+WHERE gen = 'f' GROUP BY gen;
